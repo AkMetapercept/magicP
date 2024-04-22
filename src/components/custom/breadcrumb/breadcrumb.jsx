@@ -57,7 +57,7 @@ const Breadcrumb = ({ location }) => {
     }
   }, [location.pathname, urlObject]);
 
-  return <div>{breadcrumbs}</div>;
+  return <div className="mt-3">{breadcrumbs}</div>;
 };
 
 export default Breadcrumb;

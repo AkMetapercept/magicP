@@ -69,11 +69,11 @@ export default class MDXRuntimeTest extends Component {
 
     // const metaDescription = mdx.frontmatter?.metaDescription;
 
-    let canonicalUrl = config.gatsby.siteUrl;
+    // let canonicalUrl = config.gatsby.siteUrl;
 
-    canonicalUrl =
-      config.gatsby.pathPrefix !== '/' ? canonicalUrl + config.gatsby.pathPrefix : canonicalUrl;
-    canonicalUrl = canonicalUrl + mdx.fields.slug;
+    // canonicalUrl =
+    //   config.gatsby.pathPrefix !== '/' ? canonicalUrl + config.gatsby.pathPrefix : canonicalUrl;
+    // canonicalUrl = canonicalUrl + mdx.fields.slug;
 
     return (
       <Layout {...this.props} edges={allMdx.edges}>
@@ -81,13 +81,13 @@ export default class MDXRuntimeTest extends Component {
           {metaTitle ? <title>{metaTitle}</title> : null}
           {metaTitle ? <meta name="title" content={metaTitle} /> : null}
           {/* {metaDescription ? <meta name="description" content={metaDescription} /> : null} */}
-          {metaTitle ? <meta property="og:title" content={metaTitle} /> : null}
+          {/* {metaTitle ? <meta property="og:title" content={metaTitle} /> : null} */}
           {/* {metaDescription ? <meta property="og:description" content={metaDescription} /> : null} */}
-          {metaTitle ? <meta property="twitter:title" content={metaTitle} /> : null}
+          {/* {metaTitle ? <meta property="twitter:title" content={metaTitle} /> : null} */}
           {/* {metaDescription ? (
             <meta property="twitter:description" content={metaDescription} />
           ) : null} */}
-          <link rel="canonical" href={canonicalUrl} />
+          {/* <link rel="canonical" href={canonicalUrl} /> */}
         </Helmet>
         {/* <div className={'titleWrapper'}>
           <StyledHeading>{mdx.fields.title}</StyledHeading>

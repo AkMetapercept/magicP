@@ -28,13 +28,13 @@ const config = {
 		    </a>
 		  </li>`,
     links: [{ text: '', link: '' }],
-    search: {
-      enabled: false,
-      indexName: '',
-      algoliaAppId: process.env.GATSBY_ALGOLIA_APP_ID,
-      algoliaSearchKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
-      algoliaAdminKey: process.env.ALGOLIA_ADMIN_KEY,
-    },
+    // search: {
+    //   enabled: false,
+    //   indexName: '',
+    //   algoliaAppId: process.env.GATSBY_ALGOLIA_APP_ID,
+    //   algoliaSearchKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
+    //   algoliaAdminKey: process.env.ALGOLIA_ADMIN_KEY,
+    // },
   },
   sidebar: {
     forcedNavOrder: [
@@ -49,7 +49,7 @@ const config = {
     //   '/codeblock/codeblockcopy/', // add trailing slash if enabled above
     // ],
     links: [{ text: 'Hasura', link: 'https://hasura.io' }],
-    frontLine: false,
+    // frontLine: false,
     // to ignore the home file (landing page)
     ignoreIndex: true,
     title:
@@ -60,7 +60,7 @@ const config = {
     description: 'Documentation built with mdx. Powering hasura.io/learn ',
     ogImage: null,
     docsLocation: 'https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content',
-    favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
+    // favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
   },
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.

@@ -6,7 +6,7 @@ import AnchorTag from './anchor';
 
 const StyledPre = styled('pre')`
   padding: 16px;
-  background: ${(props) => props.theme.colors.preFormattedText};
+  background: var(--preFormattedText);
 `;
 
 const appendString = (children) => {

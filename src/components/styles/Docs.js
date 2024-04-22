@@ -9,7 +9,7 @@ export const StyledHeading = styled('h1')`
   flex: 1;
   margin-top: 0;
   padding-top: 0;
-  color: ${props => props.theme.colors.heading};
+  color: var(--heading);
 `;
 
 export const Edit = styled('div')`
@@ -40,7 +40,7 @@ export const Edit = styled('div')`
 
 export const StyledMainWrapper = styled.div`
   max-width: 750px;
-  color: ${props => props.theme.colors.text};
+  color: var(--text);
 
   ul,
   ol {
@@ -59,7 +59,7 @@ export const StyledMainWrapper = styled.div`
 
   a {
     transition: color 0.15s;
-    color: ${props => props.theme.colors.link};
+    color: var(--link);
   }
 
   code {
@@ -68,7 +68,7 @@ export const StyledMainWrapper = styled.div`
     padding: 2px 6px;
     font-size: 0.9375em;
 
-    background: ${props => props.theme.colors.background};
+    background: var(--background);
   }
 
   @media (max-width: 767px) {

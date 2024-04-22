@@ -1,0 +1,23 @@
+.landing-container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-image: url('/landing-page/banner.jpg');
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 50px;
+}
+
+.search-bar {
+  margin-top: 20px;
+  padding: 10px;
+  width: 300px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  font-size: 16px;
+}

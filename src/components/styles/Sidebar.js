@@ -13,7 +13,7 @@ export const Sidebar = styled('aside')`
   position: sticky;
   top: 80px;
 
-  background: ${(props) => props.theme.colors.background};
+  background: var(--background); 
 
   .rightSideTitle {
     font-size: 10px;
@@ -29,7 +29,7 @@ export const Sidebar = styled('aside')`
     border-left-color: rgb(230, 236, 241); */
     }
 
-    color: ${(props) => props.theme.colors.text};
+    color: var(--text);
   }
 
   .rightSideBarUL {
@@ -48,8 +48,7 @@ export const Sidebar = styled('aside')`
     font-weight: 500;
     line-height: 1.5;
     padding: 7px 24px 7px 16px;
-
-    color: ${(props) => props.theme.colors.text};
+    color:var(--text); 
   }
 
   @media only screen and (max-width: 50rem) {

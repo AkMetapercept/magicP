@@ -1,0 +1,33 @@
+.left-sidebar {
+  width: 100%;
+  height: calc(100vh - 80px);
+  overflow: auto;
+  position: sticky;
+  background-color: #f9f7f7;
+  padding-top: 0px;
+  top: 80px;
+}
+
+.left-sidebar::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100vw;
+  content: '';
+  background-color: #f9f7f7;
+}
+
+@media only screen and (max-width: 1023px) {
+  .left-sidebar {
+    width: 100%;
+    height: calc(100vh - 80px);
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+  .left-sidebar {
+    padding-left: 0;
+  }
+}
