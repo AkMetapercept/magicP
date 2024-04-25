@@ -1,11 +1,9 @@
 
   .circular-container {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
-    background:rgb(248, 234, 208);
-    background-size: cover;
-    background-position: center;
+    background: center center / cover rgb(248, 234, 208);
     margin-right: 10px;
   }
   
@@ -13,7 +11,7 @@
     width: 76%;
     height: auto;
     display: block;
-    margin-top: 12px;
+    margin-top: 10px;
     margin-left: -1px;
-    padding-left: 13px;
+    padding-left: 10px;
   }
