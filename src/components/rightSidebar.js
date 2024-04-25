@@ -20,10 +20,10 @@ const SidebarLayout = ({ location }) => (
       }
     `}
     render={({ allMdx }) => {
-      console.log('🚀 ~ file: rightSidebar.js:23 ~ allMdx:', allMdx);
+      // console.log('🚀 ~ file: rightSidebar.js:23 ~ allMdx:', allMdx);
       let currentData = null;
       const generateListItems = (items) => {
-        console.log('🚀 ~ file: rightSidebar.js:59 ~ generateListItems ~ items:', items);
+        // console.log('🚀 ~ file: rightSidebar.js:59 ~ generateListItems ~ items:', items);
         return (
           <ul>
             {items?.map((item, index) => (

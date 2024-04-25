@@ -116,7 +116,7 @@ module.exports = {
   },
   plugins: plugins,
   flags: {
-    DEV_SSR: true,
+    DEV_SSR: false,
     FAST_DEV: false, // Enable all experiments aimed at improving develop server start time
     PRESERVE_WEBPACK_CACHE: false, // (Umbrella Issue (https://gatsby.dev/cache-clearing-feedback)) · Use webpack's persistent caching and don't delete webpack's cache when changing gatsby-node.js & gatsby-config.js files.
     PRESERVE_FILE_DOWNLOAD_CACHE: false, // (Umbrella Issue (https://gatsby.dev/cache-clearing-feedback)) · Don't delete the downloaded files cache when changing gatsby-node.js & gatsby-config.js files.

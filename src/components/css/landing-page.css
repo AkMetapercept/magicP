@@ -11,13 +11,106 @@
   padding-top: 50px;
 }
 
+.searchicon {
+  position: absolute;
+  top: 42px;
+  right: 15px;
+  border: none;
+  background-color: white;
+  transform: translateY(-50%);
+}
+
 .search-bar {
   margin-top: 20px;
   padding: 10px;
-  width: 300px;
+  width: 100%;
   border: none;
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.8);
-  color: #333;
+  border-radius: 100px;
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  color: black;
   font-size: 16px;
+  outline: none;
+  padding-right: 40px;
+  padding-left: 30px;
+ 
 }
+
+
+.search-bar:focus {
+  box-shadow: 1px 1px 1px rgb(226, 253, 255);/* Adjust shadow color and intensity as needed */
+}
+.form-group{
+
+  position: relative;
+  max-width: 500px;
+  margin: 10px auto;
+}
+
+
+  
+/* ==============================================Card Design========================================= */
+
+.card{
+  position: relative;
+  font-size: 1rem;
+  margin: 0;
+  border-radius: 12px;
+  padding: 0px;
+  cursor: pointer;
+  border-color: #E4E5E6;
+  transition: background-color 0.3s ease;
+ background-color: white;
+}
+
+.card:hover {
+  position: relative; 
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.095);
+  transition: all .3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  background-color:rgb(255, 250, 241,1);
+   transition: background-color 0.2s ease; 
+ }
+
+ a{
+  text-decoration: none;
+  color: #1B0C8A;
+ }
+
+ .imgWrapper{
+  background-color:rgb(255, 250, 241,1);
+  text-align: center;
+  padding: 15px;
+  border-radius: 50%;
+  min-width: 60px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+   overflow: hidden;
+
+ }
+
+ .imgicon {
+  width: 35px; 
+  height: 35px;
+}
+
+.card:hover .imgWrapper{
+  background-color: white;
+}
+
+ /* .imgWrapper{
+  background-color:rgb(255, 250, 241,1);
+  text-align: center;
+  padding: 20px;
+  border-radius: 50%;
+  width: 78px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+   overflow: hidden;
+
+ }
+
+ .imgicon {
+  width: 100%;
+  height: 100%; 
+} */
