@@ -12,7 +12,7 @@ const imageData = {
   "Add a New Project": '/landing-page/icons/new-project.png',
   "Tags": '/landing-page/icons/tags.png',
   "Data Elements": '/landing-page/icons/data-element.png',
-  "Providers": '/landing-page/icons/providers.png',
+  "Providers": '/landing-page/icons/provider.png',
   "Triggers": '/landing-page/icons/trigger.png',
   "Qualification Criteria": '/landing-page/icons/qualification.png',
   "Transformers": '/landing-page/icons/transformers.png',
