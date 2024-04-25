@@ -58,10 +58,10 @@ const TreeNode = ({ className = '', url, title, items, ...rest }) => {
   return (
     <li className={calculatedClassName}>
       {title && (
-        <Link to={url} onClick={collapse}>
-       {
-        getImageForTitle(title) && <img src={getImageForTitle(title)} className="tree-icon"  />
-       }      
+        <Link to={url} onClick={collapse} >
+       <div className='circular-container'>{
+        getImageForTitle(title) && <img src={getImageForTitle(title)} />
+       }  </div>    
           {title}
           {title && hasChildren ? (
             <button aria-label="collapse" className="collapser">
