@@ -6,12 +6,14 @@
     background:rgb(248, 234, 208);
     background-size: cover;
     background-position: center;
+    margin-right: 10px;
   }
   
   .circular-container img {
     width: 76%;
     height: auto;
     display: block;
-    margin-top: 6px;
-    margin-left: 4px;
+    margin-top: 12px;
+    margin-left: -1px;
+    padding-left: 13px;
   }
