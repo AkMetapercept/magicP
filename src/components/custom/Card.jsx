@@ -19,19 +19,21 @@ const imageData = {
 const MdxCard = ({ data }) => {
   // console.log('🚀 ~ file: Card.jsx:20 ~ MdxCard ~ data:', data);
   return (
+    <Link to={data.url}>
     <div className="card">
       <div className="card-body">
         <div className="d-flex gap-4 align-items-center">
         <div className='imgWrapper'>
           <img className='imgicon' alt={data.label} src={imageData[data.label]}  />
         </div>
-          <Link to={data.url}>
+          
             {' '}
             <h4 className="card-title"> {data.title}</h4>
-          </Link>
+          
         </div>
       </div>
     </div>
+    </Link>
   );
 };
 

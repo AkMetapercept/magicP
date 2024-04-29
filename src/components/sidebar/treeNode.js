@@ -31,7 +31,7 @@ const getImageForTitle = (title) => {
 
 
 const TreeNode = ({ className = '', url, title, items, ...rest }) => {
-  console.log("title", title)
+  // console.log("title", title)
   const { collapsed, toggle } = useSidebarContext();
   const isCollapsed = collapsed[url];
 

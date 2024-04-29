@@ -2,6 +2,50 @@ require('dotenv').config();
 const queries = require('./src/utils/algolia');
 const config = require('./config');
 const plugins = [
+  // {
+  //   resolve: `gatsby-plugin-local-search`,
+  //   options: {
+  //     name: 'pages',
+  //     engine: 'flexsearch',
+  //     engineOptions: {
+  //       encode: "icase",
+  //       tokenize: "full",
+  //       threshold: 1,
+  //       resolution: 9,
+  //       depth: 3
+  //     },
+  //     query: `
+  //       {
+  //         allMdx {
+  //           edges {
+  //             node {
+  //               id
+  //               fields {
+  //                 slug
+  //               }
+  //               frontmatter {
+  //                 title
+  //               }
+  //             }
+  //           }
+  //         } 
+  //       }
+  //     `,
+  //     ref: 'id',
+  //     index: ['title', 'rawBody'],
+  //     store: ['id', 'slug', 'title'],
+  //     normalizer: ({ data }) =>
+  //     {
+  //       console.log(data.allMdx.edges);
+  //       data.allMdx.edges.map(edge => ({
+  //         id: edge.node.id,
+  //         slug: edge.node.fields.slug,
+  //         title: edge.node.frontmatter.title,
+  //       }));
+  //     },
+  //   },
+  // },
+
   'gatsby-plugin-sitemap',
   {
     resolve: `gatsby-plugin-sharp`,

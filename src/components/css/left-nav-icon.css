@@ -1,17 +1,14 @@
 
   .circular-container {
-    width: 35px;
-    height: 35px;
+    background: #f8ead0;
     border-radius: 50%;
-    background: center center / cover rgb(248, 234, 208);
+    display: flex;
+    height: 35px;
     margin-right: 10px;
+    padding: 8px;
+    width: 35px;
+    justify-content: center;
+    align-items: center;
   }
   
-  .circular-container img {
-    width: 76%;
-    height: auto;
-    display: block;
-    margin-top: 10px;
-    margin-left: -1px;
-    padding-left: 10px;
-  }
+ 

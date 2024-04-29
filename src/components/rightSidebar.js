@@ -62,7 +62,7 @@ const SidebarLayout = ({ location }) => (
           <>
             {currentData && (
               <Sidebar>
-                <h6 className={'rightSideTitle '}>CONTENTS</h6>
+                <h6 className={'rightSideTitle '}>On this page</h6>
                 <ul className={'rightSideBarUL'}>
                   {/* {finalNavItems} */}
                   {generateListItems(currentData)}
@@ -76,7 +76,7 @@ const SidebarLayout = ({ location }) => (
           <>
             {currentData && (
               <Sidebar>
-                <h6 className={'rightSideTitle '}>CONTENTS</h6>
+                <h6 className={'rightSideTitle '}>On This page</h6>
                 <ul className={'rightSideBarUL'}>
                   {/* {finalNavItems} */}
                   {generateListItems(currentData)}

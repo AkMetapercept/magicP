@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Search = () => {
+const SearchIcon = () => {
   return (
     <>
       <style jsx="true">
@@ -63,14 +63,14 @@ const Search = () => {
           }
         `}
       </style>
-      <div className="search-box">
+      {/* <div className="search-box">
         <button className="btn-search">
           <i className="fa-solid fa-magnifying-glass"></i>
         </button>
         <input type="text" className="input-search" placeholder="Type to Search..." />
-      </div>
+      </div> */}
     </>
   );
 };
 
-export default Search;
+export default SearchIcon;

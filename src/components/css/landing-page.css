@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   height: 300px;
-  background-image: url('/landing-page/banner.jpg');
+  background: url('/landing-page/banner1.jpg') bottom left;
   background-size: cover;
   justify-content: center;
   align-items: center;
@@ -10,42 +10,6 @@
   margin-bottom: 20px;
   padding-top: 50px;
 }
-
-.searchicon {
-  position: absolute;
-  top: 42px;
-  right: 15px;
-  border: none;
-  background-color: white;
-  transform: translateY(-50%);
-}
-
-.search-bar {
-  margin-top: 20px;
-  padding: 10px;
-  width: 100%;
-  border: none;
-  border-radius: 100px;
-  /* background-color: rgba(255, 255, 255, 0.8); */
-  color: black;
-  font-size: 16px;
-  outline: none;
-  padding-right: 40px;
-  padding-left: 30px;
- 
-}
-
-
-.search-bar:focus {
-  box-shadow: 1px 1px 1px rgb(226, 253, 255);/* Adjust shadow color and intensity as needed */
-}
-.form-group{
-
-  position: relative;
-  max-width: 500px;
-  margin: 10px auto;
-}
-
 
   
 /* ==============================================Card Design========================================= */
@@ -70,7 +34,7 @@
    transition: background-color 0.2s ease; 
  }
 
- a{
+ .card h4 {
   text-decoration: none;
   color: #1B0C8A;
  }
@@ -96,21 +60,3 @@
 .card:hover .imgWrapper{
   background-color: white;
 }
-
- /* .imgWrapper{
-  background-color:rgb(255, 250, 241,1);
-  text-align: center;
-  padding: 20px;
-  border-radius: 50%;
-  width: 78px; 
-  display: flex; 
-  align-items: center; 
-  justify-content: center; 
-   overflow: hidden;
-
- }
-
- .imgicon {
-  width: 100%;
-  height: 100%; 
-} */

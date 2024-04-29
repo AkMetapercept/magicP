@@ -21,14 +21,8 @@ export const Sidebar = styled('aside')`
     font-weight: 700;
     font-size:18px;
     margin-top:20px;
-    text-transform: uppercase;
     letter-spacing: 1.2px;
     padding: 7px 24px 7px 16px;
-    ${
-      '' /* border-left: 1px solid #e6ecf1;
-    border-left-color: rgb(230, 236, 241); */
-    }
-
     color: var(--text);
   }
 
@@ -39,17 +33,24 @@ export const Sidebar = styled('aside')`
 
   .rightSideBarUL li {
     list-style-type: none;
-    border-left: 1px solid #e6ecf1;
-    border-left-color: rgb(230, 236, 241);
+    margin-right:-10px
+
+    ${'' /* border-left: 1px solid #e6ecf1; */}
+
+    ${'' /* border-left-color: rgb(230, 236, 241); */}
   }
 
   .rightSideBarUL li a {
     font-size: 12px;
     font-weight: 500;
     line-height: 1.5;
-    padding: 7px 24px 7px 16px;
+    padding: 7px 24px 7px 10px;
     color:var(--text); 
   }
+  .rightSideBarUL li a:hover{
+    color:#1B0C8A;
+  }
+
 
   @media only screen and (max-width: 50rem) {
     width: 100%;

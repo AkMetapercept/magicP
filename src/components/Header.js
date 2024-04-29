@@ -1,10 +1,12 @@
 import * as React from 'react';
 import Link from './link';
 import Sidebar from './sidebar';
-import Search from './custom/search/search.jsx';
+import Search from './custom/search.jsx';
 
 // ----------logo-----------------
 import logoImg from './images/magicPixel.png';
+import SearchBar from './custom/search.jsx';
+import MediaIcon from './custom/media-icon.jsx';
 
 const toggleSidebar = () => {
   let sidebar = document.querySelector('.sidebar-container');
@@ -29,7 +31,9 @@ const Header = ({ location }) => {
                 <img className={'img-responsive displayInline'} src={logoImg} alt={'magic pixel'} />
               </Link>
             </div>
-            <Search />
+
+            <SearchBar />
+            <MediaIcon />
           </div>
         </nav>
 
